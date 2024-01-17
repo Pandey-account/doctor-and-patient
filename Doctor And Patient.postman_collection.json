@@ -1,0 +1,438 @@
+{
+	"info": {
+		"_postman_id": "afe2592a-13dc-4938-8bbd-74c84ddf7aea",
+		"name": "Doctor And Patient",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27492877"
+	},
+	"item": [
+		{
+			"name": "Doctor",
+			"item": [
+				{
+					"name": "localhost:8080/api/doctors/add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \" Alok Kumar\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"alokkumar45@gmail.com\",\r\n  \"phoneNumber\": \"9876567890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/add",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/152",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Simmran Raj\",\r\n  \"city\": \"NOIDA\",\r\n  \"email\": \"simmran580@gmail.com\",\r\n  \"phoneNumber\": \"4576543990\",\r\n  \"speciality\": \"DERMATOLOGY\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/152",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"152"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"skchandra45@gmail.com\",\r\n  \"phoneNumber\": \"9876509890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/add",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/202",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \" Alok Kumar\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"alokkumar45@gmail.com\",\r\n  \"phoneNumber\": \"9876567890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/202",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"202"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Pankaj singh\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"pankaj@gmail.com\",\r\n  \"phoneNumber\": \"9723445490\",\r\n  \"speciality\": \"GYNECOLOGY\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/add",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/208",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"skchandra45@gmail.com\",\r\n  \"phoneNumber\": \"9876509890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/208",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"208"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/52",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"skchandra45@gmail.com\",\r\n  \"phoneNumber\": \"9876509890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/52",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"52"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/54",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"skchandra45@gmail.com\",\r\n  \"phoneNumber\": \"9876509890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/54",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"54"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/56",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"skchandra45@gmail.com\",\r\n  \"phoneNumber\": \"9876509890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/56",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"56"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/doctors/56",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"skchandra45@gmail.com\",\r\n  \"phoneNumber\": \"9876509890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/doctors/56",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"doctors",
+								"56"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Patient",
+			"item": [
+				{
+					"name": "localhost:8080/api/patients/55",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \" DELHI\",\r\n  \"email\": \"skchandra45@gmail.com\",\r\n  \"phoneNumber\": \"9876509890\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/patients/55",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"patients",
+								"55"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/patients/add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \"Faridabad\",\r\n  \"email\": \"partima56@gmail.com\",\r\n  \"phoneNumber\": \"8978865445\",\r\n  \"speciality\": \"SKIN_INFECTION\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/patients/add",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"patients",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/patients/57",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"S k chandra\",\r\n  \"city\": \"Faridabad\",\r\n  \"email\": \"partima56@gmail.com\",\r\n  \"phoneNumber\": \"8978865445\",\r\n  \"speciality\": \"SKIN_INFECTION\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/patients/57",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"patients",
+								"57"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/patients/add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Rahul Gandhi\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"rahul67@gmail.com\",\r\n  \"phoneNumber\": \"8098865445\",\r\n  \"speciality\": \"SKIN_INFECTION\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/patients/add",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"patients",
+								"add"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
